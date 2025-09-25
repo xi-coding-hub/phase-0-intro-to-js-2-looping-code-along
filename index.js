@@ -28,10 +28,18 @@ function writeCards(names) {
     return message;
 }
 
-function countDown(num) {
-  for (let i = num; i >= 0; i--) {
-    console.log(i);
+// function countDown(num) {
+//   for (let i = num; i >= 0; i--) {
+//     console.log(i);
     
+//   }
+// }
+
+function countDown(num) {
+  let i = num;
+  while (i >= 0) {
+    console.log(i);
+    i--;
   }
 }
 
